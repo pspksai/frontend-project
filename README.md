@@ -198,6 +198,7 @@
       Copyright © 2020 Your Company <br>
       • Design: TemplateMo
     </div>
+    
 
     <div class ="footer-bottom">
        <div class ="footer-text">
