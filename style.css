@@ -132,6 +132,17 @@ nav a{
 .hero{position:relative;z-index:2;}
 
 
+.section {
+    padding: 100px 30px;
+    max-width: 900px;
+    margin: auto;
+}
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
 
 /* INTRO */
 .intro{
