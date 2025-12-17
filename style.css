@@ -405,3 +405,45 @@ footer{
     justify-content:center;
   }
 }
+
+/* ================================================= */
+/* FINAL MOBILE FIX – SHOW ONLY ONE IMAGE (IMAGE-1) */
+/* ================================================= */
+
+@media (max-width: 768px) {
+
+  .trends {
+    padding: 40px 0 60px;
+  }
+
+  .trends-row {
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .trend-card {
+    display: none;
+    flex: 0 0 100%;
+    max-width: 100%;
+    transform: none;
+  }
+
+  .trend-card--active {
+    display: block;
+  }
+
+  .trend-card img {
+    height: 240px;
+  }
+
+  .trend-info {
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .slider-dots {
+    margin-top: 20px;
+  }
+}
